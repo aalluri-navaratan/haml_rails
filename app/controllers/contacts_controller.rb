@@ -1,7 +1,6 @@
 class ContactsController < ApplicationController
   def new
      @contacts = Contact.new
-     
   end
   def create
     #render :text => "index" and return
@@ -22,8 +21,5 @@ class ContactsController < ApplicationController
   end
   # def index
   #   redirect_to  new_user_session
-    
   # end
-
 end
- 
